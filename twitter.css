@@ -74,10 +74,11 @@ img {
 	border-radius: 10px;
 }
 
-/*.space {
+#user {
+	position: absolute;
 	width: 100%;
-	padding-bottom: 5%;
-}*/
+	z-index: -1;
+}
 
 .profile-link {
 	margin: 5% 0 0 3%;
@@ -195,6 +196,29 @@ img {
 	font-size: 0.9em;
 }
 
+#post img {
+	margin-left: 2%;
+	border-radius: 0;
+	display: none;
+}
+
+#post input:focus {
+	min-height: 60px;
+	-webkit-transition: max-height 0.1s ease-out 0s;
+    -moz-transition: max-height 0.1s ease-out 0s;
+    -o-transition: max-height 0.1s ease-out 0s;
+    transition: max-height 0.1s ease-out 0s;
+    margin-bottom: 5%;
+}
+
+#post input:focus~img {
+	display:block;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
 .sidebar {
 	margin: 0 0 1% 3%;
 	background-color: #fff;
@@ -216,73 +240,10 @@ img {
 	font-size: 0.9em;
 }
 
-#follow {
-    float: right;
-    margin: -23.5% 2% 0;
-}
-
-#follow ul {
-	margin: 0;
-}
-
-#follow li {
-	list-style: none;
-	margin: -15% 0 0 5%;
-	float: left;
-	color: #000;
-}
-
-#follow img {
-	margin: 5% 0 0 -20%;
-}
-
-.follow-name{
-	margin-top: -17%;
-	float: left;
-}
-
-.follow-handle {
-	font-size: 0.75em;
-	float: left;
-	margin: -14% 0 0 65%;
-}
-
-.follow-button{
-	position: relative;
-	left: 7%;
-}
-
-.follow-user {
-	text-transform: uppercase;
-	font-size: 0.75em;
-	font-weight: bold;
-}
-
-.follow-handle {
-	font-size: 0.75em;
-}
-
-#about {
-    float: right;
-    margin: -25% 2% 0;
-
-}
-
-#about ul {
-	font-size: 0.75em;
-	color: #8899a6;
-	padding: 0;
-}
-
-#about li {
-	display: inline;
-	margin-left: 0;
-}
-
 #tweets {
-	width: 47%;
+	width: 48%;
 	float: left;
-	margin: -44.5% 0 0 27%;
+	margin: 5% 0 0 27%;
 	background-color: #fff;
 	border-radius: 5px;
 	border: 1px solid #e1e8ed;
@@ -326,6 +287,80 @@ img {
 .name{
 	font-size: 0.9em;
 	font-weight: bold;
+}
+
+aside {
+	position: absolute;
+	width: 100%;
+	top: 4%;
+	z-index: -2;
+}
+
+#follow {
+    position: absolute;
+	top: 10%;
+	left: 71.5%;
+	z-index:-1;
+}
+
+#follow ul {
+	margin: 0;
+}
+
+#follow li {
+	list-style: none;
+	margin: -15% 0 0 5%;
+	float: left;
+	color: #000;
+}
+
+#follow img {
+	margin: 5% 0 0 -20%;
+}
+
+#follow li img {
+	margin: -10% 0;
+}
+
+.follow-name{
+	margin-top: -17%;
+	float: left;
+}
+
+.follow-handle {
+	font-size: 0.75em;
+	float: left;
+	margin: -14% 0 0 65%;
+}
+
+.follow-button{
+	position: relative;
+	left: 7%;
+}
+
+.follow-user {
+	text-transform: uppercase;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+
+.follow-handle {
+	font-size: 0.75em;
+}
+
+#about {
+    margin: 22.5% 0 0 74.5%;
+}
+
+#about ul {
+	font-size: 0.75em;
+	color: #8899a6;
+	padding: 0;
+}
+
+#about li {
+	display: inline;
+	margin-left: 0;
 }
 
 /*@media only screen and (min-width: 35em) */
