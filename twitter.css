@@ -1,0 +1,331 @@
+body {
+	background-color: #edece9;
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-image:url('background.gif');
+	background-repeat: no-repeat;
+	background-position: left 40px;
+	background-attachment: fixed;
+}
+main {
+    margin: 0 auto;
+    width: 1250px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #66757f;
+	max-height: 15%;
+	overflow: hidden;
+}
+
+header ul {
+	margin-left: 1%;
+}
+
+header li {
+	display: inline;
+	font-size: 80%;
+	font-weight: 500;
+	color: #66757f;
+	padding-right: 1%;
+}
+
+header i {
+	font-size: 1em;
+}
+
+nav li {
+    margin-right:1%;
+}
+
+nav li img {
+	position: absolute;
+	top: 91%;
+	left: 4%;
+	border-radius: 0;
+}
+
+h1 {
+	float: right;
+	margin: -3.5% 50% 0 0;
+	color: #55acee;
+}
+
+h2, h3 {
+	color: #66757f;
+	font-weight: lighter;
+	margin: 0;
+	display: inline;
+
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	border-radius: 10px;
+}
+
+/*.space {
+	width: 100%;
+	padding-bottom: 5%;
+}*/
+
+.profile-link {
+	margin: 5% 0 0 3%;
+	padding: 4% 0 3.75%;
+	width: 23%;
+ 	background-color: #088253; 
+ 	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.search {
+	float: right;
+	margin: -3.5% 16% 0 0;
+	background-color: #66757f;
+	color: #fff;
+	border-radius: 15px;
+	padding: 0.5% 0;
+	line-height: 1;
+	width: 20%;
+}
+
+.search input {
+	background-color: #66757f;
+	border: none;
+	color: #fff;
+	margin: 0 28% 0 5%;
+}
+
+.fa-search {
+	font-size: 0.5em;
+}
+
+#icons {
+	float: left;
+	margin: -3% 0 0 83%;
+	width: 40%;
+}
+
+#icons li {
+	margin-right: 3%;
+}
+
+#user-info {
+	margin-left: 3%;
+	width: 23%;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+#user-info img {
+	float: left;
+	margin: -7% 0 0 2%;
+	border: 3px solid #fff;
+	border-radius: 5px;
+}
+
+.user-data-titles {
+    width: 90%;
+    padding-left: 3%;
+    margin-bottom: 0;
+}
+
+.user-data-titles li {
+	display: inline;
+	margin-right: 4%;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	color: #8c9ca9;
+	font-weight: lighter;
+}
+
+.handle {
+	color: #8c9ca9;
+	font-weight: lighter;
+	font-size: 0.75em;
+}
+
+.user-data {
+    width: 90%;
+    padding: 0 0 3% 3%;
+    margin: 0;
+}
+
+.user-data li {
+	display: inline;
+	margin-right: 23%;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #088253;
+}
+
+#post {
+	margin: 0 0 1% 3%;
+	border: 1px solid #C1DFD4;
+	padding: 1% 0;
+	width: 23%;
+	background-color: #E6F2ED;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#post input{
+	width: 80%;
+	padding: 2.5%;
+	margin-left: 7%;
+	border: 1px solid #C1DFD4;
+	font-size: 0.9em;
+}
+
+.sidebar {
+	margin: 0 0 1% 3%;
+	background-color: #fff;
+	width: 21%;
+	padding: 1%;
+	border-radius: 5px;
+	border: 1px solid #e1e8ed;
+}
+
+.sidebar a {
+	color: #088253;
+	font-size: 0.8em;
+}
+
+.sidebar li {
+	list-style: none;
+	margin-left: -15%;
+	color: #088253;
+	font-size: 0.9em;
+}
+
+#follow {
+    float: right;
+    margin: -23.5% 2% 0;
+}
+
+#follow ul {
+	margin: 0;
+}
+
+#follow li {
+	list-style: none;
+	margin: -15% 0 0 5%;
+	float: left;
+	color: #000;
+}
+
+#follow img {
+	margin: 5% 0 0 -20%;
+}
+
+.follow-name{
+	margin-top: -17%;
+	float: left;
+}
+
+.follow-handle {
+	font-size: 0.75em;
+	float: left;
+	margin: -14% 0 0 65%;
+}
+
+.follow-button{
+	position: relative;
+	left: 7%;
+}
+
+.follow-user {
+	text-transform: uppercase;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+
+.follow-handle {
+	font-size: 0.75em;
+}
+
+#about {
+    float: right;
+    margin: -25% 2% 0;
+
+}
+
+#about ul {
+	font-size: 0.75em;
+	color: #8899a6;
+	padding: 0;
+}
+
+#about li {
+	display: inline;
+	margin-left: 0;
+}
+
+#tweets {
+	width: 47%;
+	float: left;
+	margin: -44.5% 0 0 27%;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #e1e8ed;
+	padding-top: 1%;
+}
+
+#tweets h2 {
+	margin: 0;
+	padding: 3%;
+}
+
+#tweets ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#tweets img {
+	float: left;
+	padding-right: 1%;
+}
+
+#tweets li {
+	list-style: none;
+	border-top: 1px solid #e1e8ed;
+	padding: 5% 1%;
+	font-size: 0.9em;
+}
+
+#tweets li:hover {
+	background-color: #f5f8fa;
+}
+
+.tweet-options {
+	float: right;
+	font-size: 0.85em;
+	color: #8899a6;
+	margin: 1%;
+}
+
+.name{
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+/*@media only screen and (min-width: 35em) */
