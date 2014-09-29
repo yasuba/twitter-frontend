@@ -53,7 +53,7 @@ nav li img {
 
 h1 {
 	float: right;
-	margin: -3.5% 50% 0 0;
+	margin: -3% 50% 0 0;
 	color: #55acee;
 }
 
@@ -76,14 +76,14 @@ img {
 
 #user {
 	position: absolute;
-	width: 100%;
+	width: 23%;
 	z-index: -1;
 }
 
 .profile-link {
-	margin: 5% 0 0 3%;
-	padding: 4% 0 3.75%;
-	width: 23%;
+	margin: 22% 0 0 10%;
+	padding: 30% 0 3.75%;
+	width: 100%;
  	background-color: #088253; 
  	-webkit-border-top-left-radius: 5px;
 	-webkit-border-top-right-radius: 5px;
@@ -126,8 +126,8 @@ img {
 }
 
 #user-info {
-	margin-left: 3%;
-	width: 23%;
+	margin-left: 10%;
+	width: 100%;
 	font-weight: bold;
 	background-color: #fff;
 }
@@ -175,10 +175,10 @@ img {
 }
 
 #post {
-	margin: 0 0 1% 3%;
+	margin: 0 0 4% 10%;
 	border: 1px solid #C1DFD4;
 	padding: 1% 0;
-	width: 23%;
+	width: 100%;
 	background-color: #E6F2ED;
 	-webkit-border-bottom-left-radius: 5px;
 	-webkit-border-bottom-right-radius: 5px;
@@ -220,10 +220,10 @@ img {
 }
 
 .sidebar {
-	margin: 0 0 1% 3%;
+	margin: 0 0 1% 10%;
 	background-color: #fff;
-	width: 21%;
-	padding: 1%;
+	width: 94%;
+	padding: 3%;
 	border-radius: 5px;
 	border: 1px solid #e1e8ed;
 }
@@ -243,7 +243,7 @@ img {
 #tweets {
 	width: 48%;
 	float: left;
-	margin: 5% 0 0 27%;
+	margin: 5% 0 0 26.5%;
 	background-color: #fff;
 	border-radius: 5px;
 	border: 1px solid #e1e8ed;
@@ -263,14 +263,18 @@ img {
 
 #tweets img {
 	float: left;
-	padding-right: 1%;
 }
 
 #tweets li {
 	list-style: none;
 	border-top: 1px solid #e1e8ed;
-	padding: 5% 1%;
+	padding: 2% 3% 5%;
 	font-size: 0.9em;
+}
+
+#tweets p {
+	margin: 0 0 0 11%;
+	padding: 0;
 }
 
 #tweets li:hover {
@@ -287,20 +291,24 @@ img {
 .name{
 	font-size: 0.9em;
 	font-weight: bold;
+	margin-left: 3%;
 }
 
 aside {
 	position: absolute;
-	width: 100%;
-	top: 4%;
+	width: 23%;
+	top: 19%;
 	z-index: -2;
+	left: 74.5%;
 }
 
 #follow {
-    position: absolute;
-	top: 10%;
-	left: 71.5%;
-	z-index:-1;
+    margin: -18% 0 0 1%;
+    padding-top:5%;
+}
+
+#follow h3 {
+	padding-left:5%;
 }
 
 #follow ul {
@@ -309,13 +317,15 @@ aside {
 
 #follow li {
 	list-style: none;
-	margin: -15% 0 0 5%;
+	margin: -18% 0 0 8%;
 	float: left;
 	color: #000;
 }
 
 #follow img {
-	margin: 5% 0 0 -20%;
+	margin: 5% 0 5% -15%;
+	display: block;
+	padding: 1%;
 }
 
 #follow li img {
@@ -349,18 +359,20 @@ aside {
 }
 
 #about {
-    margin: 22.5% 0 0 74.5%;
+    margin: 3% 0 3% 2%;
+	padding: 1%;
+	width: 97%;
 }
 
 #about ul {
-	font-size: 0.75em;
+	font-size: 0.9em;
 	color: #8899a6;
 	padding: 0;
+	margin-left: 3%;
 }
 
 #about li {
 	display: inline;
 	margin-left: 0;
+	padding: 1%;
 }
-
-/*@media only screen and (min-width: 35em) */
