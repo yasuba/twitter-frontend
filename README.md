@@ -16,4 +16,6 @@ Goal 2. Add JavaScript for infinite scrolling (using dummy data, no server-side 
 
 Don't forget the infinite scrolling adds a spinner to show that data is being loaded. Even though you'll be using dummy data, emulate the delay.
 
-Goal 3, Make is responsive. Notice that Twitter has very few responsive features other than resizing the search box and hiding the labels in the navigation bar. 
+##View the design
+
+To see the design, clone this repo, then open twitter.html
