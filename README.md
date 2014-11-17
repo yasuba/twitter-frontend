@@ -14,8 +14,6 @@ Another tip: play with the page a lot before starting coding it. Notice how the 
 
 Goal 2. Add JavaScript for infinite scrolling (using dummy data, no server-side at all), expanding the tweet input box on focus and, if you're feeling adventurous, a popup to add a new tweet.
 
-Don't forget the infinite scrolling adds a spinner to show that data is being loaded. Even though you'll be using dummy data, emulate the delay.
-
 ##View the design
 
 To see the design, type this into the command line:
