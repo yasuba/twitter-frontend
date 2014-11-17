@@ -18,7 +18,11 @@ Don't forget the infinite scrolling adds a spinner to show that data is being lo
 
 ##View the design
 
-To see the design, clone this repo, then open twitter.html
+To see the design, type this into the command line:
+
+    git clone git@github.com:ysauba/twitter-frontend.git
+    cd twitter-frontend
+    open twitter.html
 
 ##Screenshot
 
