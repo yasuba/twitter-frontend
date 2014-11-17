@@ -19,3 +19,7 @@ Don't forget the infinite scrolling adds a spinner to show that data is being lo
 ##View the design
 
 To see the design, clone this repo, then open twitter.html
+
+##Screenshot
+
+![A screenshot of my front-end version of Twitter](/public/images/screenshot.png)
