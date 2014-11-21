@@ -1,13 +1,13 @@
 body {
-	background-color: #edece9;
-	font-family: 'Helvetica Neue', Helvetica, Arial;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	background-image:url('background.gif');
-	background-repeat: no-repeat;
-	background-position: left 40px;
-	background-attachment: fixed;
+  background-color: #edece9;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image:url('background.gif');
+  background-repeat: no-repeat;
+  background-position: left 40px;
+  background-attachment: fixed;
 }
 main {
     margin: 0 auto;
@@ -15,29 +15,29 @@ main {
 }
 
 header {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: #fff;
-	border-bottom: 1px solid #66757f;
-	max-height: 15%;
-	overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #66757f;
+  max-height: 15%;
+  overflow: hidden;
 }
 
 header ul {
-	margin-left: 1%;
+  margin-left: 1%;
 }
 
 header li {
-	display: inline;
-	font-size: 80%;
-	font-weight: 500;
-	color: #66757f;
-	padding-right: 1%;
+  display: inline;
+  font-size: 80%;
+  font-weight: 500;
+  color: #66757f;
+  padding-right: 1%;
 }
 
 header i {
-	font-size: 1em;
+  font-size: 1em;
 }
 
 nav li {
@@ -45,98 +45,98 @@ nav li {
 }
 
 nav li img {
-	position: absolute;
-	top: 91%;
-	left: 4%;
-	border-radius: 0;
+  position: absolute;
+  top: 91%;
+  left: 4%;
+  border-radius: 0;
 }
 
 h1 {
-	float: right;
-	margin: -3% 50% 0 0;
-	color: #55acee;
+  float: right;
+  margin: -3% 50% 0 0;
+  color: #55acee;
 }
 
 h2, h3 {
-	color: #66757f;
-	font-weight: lighter;
-	margin: 0;
-	display: inline;
+  color: #66757f;
+  font-weight: lighter;
+  margin: 0;
+  display: inline;
 
 }
 
 a {
-	text-decoration: none;
-	color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 img {
-	border-radius: 10px;
+  border-radius: 10px;
 }
 
 #user {
-	position: absolute;
-	width: 23%;
-	z-index: -1;
+  position: absolute;
+  width: 23%;
+  z-index: -1;
 }
 
 .profile-link {
-	margin: 22% 0 0 10%;
-	padding: 30% 0 3.75%;
-	width: 100%;
- 	background-color: #088253; 
- 	-webkit-border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-radius-topleft: 5px;
-	-moz-border-radius-topright: 5px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+  margin: 22% 0 0 10%;
+  padding: 30% 0 3.75%;
+  width: 100%;
+  background-color: #088253;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .search {
-	float: right;
-	margin: -3.5% 16% 0 0;
-	background-color: #66757f;
-	color: #fff;
-	border-radius: 15px;
-	padding: 0.5% 0;
-	line-height: 1;
-	width: 20%;
+  float: right;
+  margin: -3.5% 16% 0 0;
+  background-color: #66757f;
+  color: #fff;
+  border-radius: 15px;
+  padding: 0.5% 0;
+  line-height: 1;
+  width: 20%;
 }
 
 .search input {
-	background-color: #66757f;
-	border: none;
-	color: #fff;
-	margin: 0 28% 0 5%;
+  background-color: #66757f;
+  border: none;
+  color: #fff;
+  margin: 0 28% 0 5%;
 }
 
 .fa-search {
-	font-size: 0.5em;
+  font-size: 0.5em;
 }
 
 #icons {
-	float: left;
-	margin: -3% 0 0 83%;
-	width: 40%;
+  float: left;
+  margin: -3% 0 0 83%;
+  width: 40%;
 }
 
 #icons li {
-	margin-right: 3%;
+  margin-right: 3%;
 }
 
 #user-info {
-	margin-left: 10%;
-	width: 100%;
-	font-weight: bold;
-	background-color: #fff;
+  margin-left: 10%;
+  width: 100%;
+  font-weight: bold;
+  background-color: #fff;
 }
 
 #user-info img {
-	float: left;
-	margin: -7% 0 0 2%;
-	border: 3px solid #fff;
-	border-radius: 5px;
+  float: left;
+  margin: -7% 0 0 2%;
+  border: 3px solid #fff;
+  border-radius: 5px;
 }
 
 .user-data-titles {
@@ -146,18 +146,18 @@ img {
 }
 
 .user-data-titles li {
-	display: inline;
-	margin-right: 4%;
-	text-transform: uppercase;
-	font-size: 0.75em;
-	color: #8c9ca9;
-	font-weight: lighter;
+  display: inline;
+  margin-right: 4%;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  color: #8c9ca9;
+  font-weight: lighter;
 }
 
 .handle {
-	color: #8c9ca9;
-	font-weight: lighter;
-	font-size: 0.75em;
+  color: #8c9ca9;
+  font-weight: lighter;
+  font-size: 0.75em;
 }
 
 .user-data {
@@ -167,52 +167,52 @@ img {
 }
 
 .user-data li {
-	display: inline;
-	margin-right: 23%;
-	text-transform: uppercase;
-	font-size: 1em;
-	color: #088253;
+  display: inline;
+  margin-right: 23%;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #088253;
 }
 
 #post {
-	margin: 0 0 4% 10%;
-	border: 1px solid #C1DFD4;
-	padding: 1% 0;
-	width: 100%;
-	background-color: #E6F2ED;
-	-webkit-border-bottom-left-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+  margin: 0 0 4% 10%;
+  border: 1px solid #C1DFD4;
+  padding: 1% 0;
+  width: 100%;
+  background-color: #E6F2ED;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 #post input{
-	width: 80%;
-	padding: 2.5%;
-	margin-left: 7%;
-	border: 1px solid #C1DFD4;
-	font-size: 0.9em;
+  width: 80%;
+  padding: 2.5%;
+  margin-left: 7%;
+  border: 1px solid #C1DFD4;
+  font-size: 0.9em;
 }
 
 #post img {
-	margin-left: 2%;
-	border-radius: 0;
-	display: none;
+  margin-left: 2%;
+  border-radius: 0;
+  display: none;
 }
 
 #post input:focus {
-	min-height: 60px;
-	-webkit-transition: max-height 0.1s ease-out 0s;
-    -moz-transition: max-height 0.1s ease-out 0s;
-    -o-transition: max-height 0.1s ease-out 0s;
-    transition: max-height 0.1s ease-out 0s;
-    margin-bottom: 5%;
+  min-height: 60px;
+  -webkit-transition: max-height 0.1s ease-out 0s;
+  -moz-transition: max-height 0.1s ease-out 0s;
+  -o-transition: max-height 0.1s ease-out 0s;
+  transition: max-height 0.1s ease-out 0s;
+  margin-bottom: 5%;
 }
 
 #post input:focus~img {
-	display:block;
+  display:block;
 }
 
 [placeholder]:focus::-webkit-input-placeholder {
@@ -220,159 +220,159 @@ img {
 }
 
 .sidebar {
-	margin: 0 0 1% 10%;
-	background-color: #fff;
-	width: 94%;
-	padding: 3%;
-	border-radius: 5px;
-	border: 1px solid #e1e8ed;
+  margin: 0 0 1% 10%;
+  background-color: #fff;
+  width: 94%;
+  padding: 3%;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
 }
 
 .sidebar a {
-	color: #088253;
-	font-size: 0.8em;
+  color: #088253;
+  font-size: 0.8em;
 }
 
 .sidebar li {
-	list-style: none;
-	margin-left: -15%;
-	color: #088253;
-	font-size: 0.9em;
+  list-style: none;
+  margin-left: -15%;
+  color: #088253;
+  font-size: 0.9em;
 }
 
 #tweets {
-	width: 48%;
-	float: left;
-	margin: 5% 0 0 26.5%;
-	background-color: #fff;
-	border-radius: 5px;
-	border: 1px solid #e1e8ed;
-	padding-top: 1%;
+  width: 48%;
+  float: left;
+  margin: 5% 0 0 26.5%;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+  padding-top: 1%;
 }
 
 #tweets h2 {
-	margin: 0;
-	padding: 3%;
+  margin: 0;
+  padding: 3%;
 }
 
 #tweets ul {
-	width: 100%;
-	margin: 0;
-	padding: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #tweets img {
-	float: left;
+  float: left;
 }
 
 #tweets li {
-	list-style: none;
-	border-top: 1px solid #e1e8ed;
-	padding: 2% 3% 5%;
-	font-size: 0.9em;
+  list-style: none;
+  border-top: 1px solid #e1e8ed;
+  padding: 2% 3% 5%;
+  font-size: 0.9em;
 }
 
 #tweets p {
-	margin: 0 0 0 11%;
-	padding: 0;
+  margin: 0 0 0 11%;
+  padding: 0;
 }
 
 #tweets li:hover {
-	background-color: #f5f8fa;
+  background-color: #f5f8fa;
 }
 
 .tweet-options {
-	float: right;
-	font-size: 0.85em;
-	color: #8899a6;
-	margin: 1%;
+  float: right;
+  font-size: 0.85em;
+  color: #8899a6;
+  margin: 1%;
 }
 
 .name{
-	font-size: 0.9em;
-	font-weight: bold;
-	margin-left: 3%;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-left: 3%;
 }
 
 aside {
-	position: absolute;
-	width: 23%;
-	top: 19%;
-	z-index: -2;
-	left: 74.5%;
+  position: absolute;
+  width: 23%;
+  top: 19%;
+  z-index: -2;
+  left: 74.5%;
 }
 
 #follow {
-    margin: -18% 0 0 1%;
-    padding-top:5%;
+  margin: -18% 0 0 1%;
+  padding-top:5%;
 }
 
 #follow h3 {
-	padding-left:5%;
+  padding-left:5%;
 }
 
 #follow ul {
-	margin: 0;
+  margin: 0;
 }
 
 #follow li {
-	list-style: none;
-	margin: -18% 0 0 8%;
-	float: left;
-	color: #000;
+  list-style: none;
+  margin: -18% 0 0 8%;
+  float: left;
+  color: #000;
 }
 
 #follow img {
-	margin: 5% 0 5% -15%;
-	display: block;
-	padding: 1%;
+  margin: 5% 0 5% -15%;
+  display: block;
+  padding: 1%;
 }
 
 #follow li img {
-	margin: -10% 0;
+  margin: -10% 0;
 }
 
 .follow-name{
-	margin-top: -17%;
-	float: left;
+  margin-top: -17%;
+  float: left;
 }
 
 .follow-handle {
-	font-size: 0.75em;
-	float: left;
-	margin: -14% 0 0 65%;
+  font-size: 0.75em;
+  float: left;
+  margin: -14% 0 0 65%;
 }
 
 .follow-button{
-	position: relative;
-	left: 7%;
+  position: relative;
+  left: 7%;
 }
 
 .follow-user {
-	text-transform: uppercase;
-	font-size: 0.75em;
-	font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
 }
 
 .follow-handle {
-	font-size: 0.75em;
+  font-size: 0.75em;
 }
 
 #about {
-    margin: 3% 0 3% 2%;
-	padding: 1%;
-	width: 97%;
+  margin: 3% 0 3% 2%;
+  padding: 1%;
+  width: 97%;
 }
 
 #about ul {
-	font-size: 0.9em;
-	color: #8899a6;
-	padding: 0;
-	margin-left: 3%;
+  font-size: 0.9em;
+  color: #8899a6;
+  padding: 0;
+  margin-left: 3%;
 }
 
 #about li {
-	display: inline;
-	margin-left: 0;
-	padding: 1%;
+  display: inline;
+  margin-left: 0;
+  padding: 1%;
 }
