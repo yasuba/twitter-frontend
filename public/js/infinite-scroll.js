@@ -24,7 +24,7 @@ var tweets = "";
     tweets += tweet(tweet_data[i % tweet_data.length]);
   }
   function tweet(tweet_data) {
-    return '<li><img src="egg.png" width="48" height="48"><span class="name">' + tweet_data.username + '</span> ‏<span class="handle">' + tweet_data.handle + '  56m</span><p>' + tweet_data.txt + '</p>  <span class="tweet-options">Reply Retweet Favorite More</span></li>';
+    return '<li><img src="./public/images/egg.png" width="48" height="48"><span class="name">' + tweet_data.username + '</span> ‏<span class="handle">' + tweet_data.handle + '  56m</span><p>' + tweet_data.txt + '</p>  <span class="tweet-options">Reply Retweet Favorite More</span></li>';
   }
   $(window).scroll(function() {
     if($(window).scrollTop() + $(window).height() == $(document).height()) {
