@@ -22,6 +22,12 @@ To see the design, type this into the command line:
     cd twitter-frontend
     open twitter.html
 
-##Screenshot
+##Screenshots
+
+###My version of Twitter
 
 ![A screenshot of my front-end version of Twitter](/public/images/screenshot.png)
+
+###The real Twitter
+
+![A screenshot of the real Twitter](/public/images/twitter.png)
